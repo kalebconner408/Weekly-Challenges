@@ -8,24 +8,24 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class heteromecicTest
 {
     @Test
-    void zero()
+    void test0()
     {
         assertTrue(com.kaleb.dec20.heteromecic.isHeteromecic(0));
     }
 
     @Test
-    void two()
+    void test2()
     {
         assertTrue(com.kaleb.dec20.heteromecic.isHeteromecic(2));
     }
 
     @Test
-    void seven()
+    void test7()
     {
         assertFalse(com.kaleb.dec20.heteromecic.isHeteromecic(7));
     }
     @Test
-    void oneHundredTen()
+    void test110()
     {
         assertTrue(com.kaleb.dec20.heteromecic.isHeteromecic(110));
     }
